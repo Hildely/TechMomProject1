@@ -1,6 +1,7 @@
 /* Global styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
   font-size: 30px;
   
   color: #6b6868;
@@ -9,7 +10,7 @@ body {
 
 /* Header styles */
 header {
-  background-color:rgb(182, 240, 248);
+  background-color:rgb(226, 232, 233);
   padding: 20px;
   font-weight: 700;
   
@@ -17,16 +18,45 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 70px;
+  font-size: 100px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 
 }
 header h2 {
   margin: 0;
   font-size: 600px;
+  font-weight: bolder;
+  font-style: italic;
   
   
 }
+
+body p{
+
+  margin: 0;
+  font-size: 80px;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing:normal;
+  margin-left: 0%;
+  font-style: oblique;
+ 
+  color:rgb(37, 35, 35)
+  
+} 
+
+body p1{
+
+  margin: 0;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing:normal;
+  margin-left: 0%;
+  font-style: oblique;
+  color:rgb(45, 13, 63)
+  
+} 
+
 
 nav ul {
   list-style: none;
@@ -46,9 +76,13 @@ nav a {
   text-decoration: none;
 }
 
+#frosting {
+  width: 1800%;
+  object-fit: cover;
+}
 
 #cupcake {
-  width: 80%;
+  width: 100%;
   object-fit: cover;
 }
 .form-group {
